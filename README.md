@@ -8,5 +8,5 @@ and choose a random post to show you.
 ![alt text](https://github.com/rytrotter/EyeBleacher/blob/master/Eyebleacher_MainStart.png)
 
 
-From this porject, I learned alot about how Reddit specifically handles it's post/subreddit data. This is also my first non-tutorial project
+From this porject, I learned a lot about how Reddit specifically handles it's post/subreddit data. This is also my first non-tutorial project
 with C# and WinForms.
