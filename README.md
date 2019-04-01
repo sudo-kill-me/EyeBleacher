@@ -8,13 +8,6 @@ and choose a random post to show you.
 ![alt text](https://github.com/rytrotter/EyeBleacher/blob/master/Eyebleacher_MainScreen.png)
 
 
-From this porject, I learned a lot about how Reddit specifically handles it's post/subreddit data. This is also my first non-tutorial project
-with C# and WinForms.
+From this project, I learned a lot about how Reddit specifically handles it's post/subreddit data. This is also my first non-tutorial project with C# and WinForms.
 
-## Issues
-The only issue I've found as of right now is sometimes when pressing the "Something Wholesome" or "Something Cool" buttons, an 
-unhandled exception will be thrown. The unhandled exception is **Newtonsoft.Json.JsonSerializationException** which gets thrown
-because all the JSON data from the last button press returns no .jpg files so they all get filtered out and the arrays are all left null.
-
-Putting a Try{} Catch (Newtonsoft.Json.JsonSerializationException) {} block around the code for these two buttons does stop this
-from occuring, but it makes the program run slowly.
+I've added functionality to go straight to a post in your web browser by pressing the "Open in Browser" button.
